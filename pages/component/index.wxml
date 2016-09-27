@@ -1,0 +1,12 @@
+<view class="container">
+    <scroll-view scroll-y="true" height="100%">
+        <view class="section" wx:for="{{componentList}}" wx:for-item="component">
+            <view class="sec_title">{{component.type}}</view>
+            <view class="sec_list">
+                <block wx:for="{{component.list}}">
+                    <navigator class="sec_item" url="{{item.url}}">{{item.text}}</navigator>
+                </block>
+            </view>
+        </view>
+    </scroll-view>
+</view>

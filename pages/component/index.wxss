@@ -1,0 +1,24 @@
+.container {
+    padding: 40rpx;
+}
+
+.section {
+    margin: 60rpx 0;
+}
+
+.section .sec_title {
+    line-height: 60rpx;
+    font-size: 24rpx;
+    color: #888;
+}
+
+.section .sec_list {
+    border-top: 2rpx solid #ccc;
+}
+
+.section .sec_list .sec_item {
+    padding: 20rpx 0 20rpx 30rpx;
+    border-bottom: 2rpx solid #ccc;
+    font-size: 32rpx;
+    line-height: 40rpx;
+}

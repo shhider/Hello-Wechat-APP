@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="profile">
+        <image class="avatar" mode="scaleToFill" src="/images/avatar.jpg"></image>
+        <view class="info">
+            <text>shhider</text>
+            <text>网易蜂巢</text>
+        </view>
+    </view>
+
+    <view class="contact">
+        <view class="contact_item">
+            <image src="/images/github.png"></image>
+            <text>shhider</text>
+        </view>
+        <view class="contact_item">
+            <image src="/images/weibo.png"></image>
+            <text>施浩宏GT</text>
+        </view>
+    </view>
+</view>
