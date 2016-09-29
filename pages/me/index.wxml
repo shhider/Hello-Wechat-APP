@@ -1,9 +1,10 @@
 <view class="container">
     <view class="profile">
-        <image class="avatar" mode="scaleToFill" src="/images/avatar.jpg"></image>
-        <view class="info">
+        <view class="avatar">
+            <image mode="scaleToFill" src="/images/avatar.jpg"></image>
+        </view>
+        <view class="name">
             <text>shhider</text>
-            <text>网易蜂巢</text>
         </view>
     </view>
 
